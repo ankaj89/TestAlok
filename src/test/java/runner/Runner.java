@@ -5,5 +5,5 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(features="src/test/resources/features",glue="glue",dryRun=false,tags="@selenium")
 public class Runner extends AbstractTestNGCucumberTests {
-String s;
+
 }
